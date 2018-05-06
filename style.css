@@ -1,0 +1,86 @@
+body {
+	font-family: sans-serif;
+	background-color: #B4B39D;
+}
+#title {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center; 
+}
+#calculator {
+    height: 410px;
+	width: 300px;
+	border: 2px solid #b4b39d;
+	border-radius: 20px;
+	margin-top: 10%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #36B8B1;
+	box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -12px 0px 48px 0.1px #C6FCED;
+	
+}
+#entry-box {
+	height: 60px;
+	width: 85%;
+	border: 1px solid #b4b39d;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: right;
+	background-color: #FEE9FF;
+}
+#entry {
+	margin-right: 10px;
+	margin-top: -32px;
+	font-size: 35px;
+}
+#history {
+    position: relative;
+    height: 10px;
+    bottom: 19px;
+    right: 11;
+    text-align: right;
+    margin-right: 14px;
+    color: #8b8b7b;
+    font-size: 12px;
+}
+#buttons {
+	font-size: 16px;
+	position: absolute;
+	display: inline-block;
+	width: 280px;
+	height: auto;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+button {
+	height: 40px;
+	width: 50px;
+	margin: 0px 4px 8px 8px;
+	border-radius: 8px;
+    border: none;
+    /*background-color: #3a3a3a;
+    margin: 0 4px 10px 8px;
+    height: 40px;
+    width: 50px;
+*/    box-shadow: 1px -2px 1px 0px #222121, inset 4px 3px 5px -6px #515151;
+}
+
+button:active {
+  transform: translate(2px, -1px);
+  box-shadow: none;
+  color: #009E85;
+  background-color: #53D5BA;
+}
+.invisible{
+	visibility: hidden
+}
+#equalButton {
+    position: absolute;
+    margin-left: 12px;
+    margin-top: -48px;
+    height: 90px;
+    width: 51px;
+}
+#zeroButton {
+	width: 116px;
+}

@@ -1,0 +1,57 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Calculator</title>
+	<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div id="calculator">
+
+		<div id="title">
+			<h4>calculator</h4>
+		</div>
+		<!-- Экран вывода информации -->
+		<div id="entry-box">
+			<div id="entry">
+				<p id="answer"></p>
+			</div>
+		</div>
+		<div id='history'></div>
+		<!-- кнопки -->
+		<div id="buttons">
+			<button value="AC" class="ce">AC</button>
+			<button value="CE" class="ce">CE</button>
+			<button value="/" class="calcButton">/</button>
+			<button value="*" class="calcButton">*</button>
+
+			<button value="7" class="calcButton">7</button>
+			<button value="8" class="calcButton">8</button>
+			<button value="9" class="calcButton">9</button>
+			<button value="-" class="calcButton">-</button>
+
+			<button value="4" class="calcButton">4</button>
+			<button value="5" class="calcButton">5</button>
+			<button value="6" class="calcButton">6</button>
+			<button value="+" class="calcButton">+</button>
+
+			<button value="1" class="calcButton">1</button>
+			<button value="2" class="calcButton">2</button>
+			<button value="3" class="calcButton">3</button>
+			<button class='invisible'>N</button>
+
+      		<button id='zeroButton' value='0' class="calcButton">0</button>
+     		<button value='.' class="calcButton">.</button>
+     		<button id='equalButton' value='='>=</button>
+		</div>
+			
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
